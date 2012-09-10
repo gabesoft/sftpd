@@ -9,6 +9,7 @@
       , "underscore.string" : "2.2.x"
       , "eyes": "0.1.8"
       , "eventemitter2": "0.4.9"
+      , "is": "0.1.5"
     }
   , "devDependencies": {
         "cli-easy": "0.1.0"
