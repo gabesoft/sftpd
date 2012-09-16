@@ -10,7 +10,8 @@
       , "eyes": "0.1.8"
       , "eventemitter2": "0.4.9"
       , "is": "0.1.5"
-      , "pty.js": "*"
+      , "pty.js": "0.1.2"
+      , "async": "0.0.9"
     }
   , "devDependencies": {
         "cli-easy": "0.1.0"
