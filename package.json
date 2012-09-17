@@ -18,6 +18,10 @@
       , "mocha": "1.4.2"
       , "should": "1.1.0"
     }
+  , "main": "./lib/sftpd.js"
+  , "bin": {
+        "sftpd": "./bin/sftpd"
+    }
   , "scripts": {
         "start": "node app.js"
       , "test": "./node_modules/mocha/bin/mocha ./test/*.js --reporter spec"
