@@ -1,11 +1,6 @@
 var should   = require('should')
+  , Log      = require('./log')
   , Transfer = require('../lib/sftpd/transfer');
-
-function Log () { }
-Log.prototype.error = console.error;
-Log.prototype.info  = console.info;
-Log.prototype.warn  = console.warn;
-Log.prototype.debug = function(msg) { console.log('debug: ' + msg); };
 
 describe('transfer', function() {
     var sut = new Transfer('/a/b/c', '/a/e/f/d', new Log());
