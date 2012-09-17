@@ -1,4 +1,5 @@
-A simple cli tool to deploy files via sftp.
+# A simple cli tool to deploy files via sftp.
+
 Only file watch is currently implemented.
 
 To watch files in a directory and deploy on change 
