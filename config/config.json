@@ -1,5 +1,11 @@
 {
     "log": {
-        "levels": "info"
+        "file": {
+            "filename": "sftpd.log",
+            "level": "silly"
+        },
+        "console": {
+            "level": "silly"
+        }
     }
 }
