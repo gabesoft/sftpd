@@ -13,6 +13,7 @@
       , "pty.js": "0.1.2"
       , "async": "0.1.22"
       , "winston": "0.6.2"
+      , "posix": "*"
       , "broadway": "*"
     }
   , "devDependencies": {
