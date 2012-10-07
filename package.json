@@ -13,14 +13,14 @@
       , "pty.js": "0.1.2"
       , "async": "0.1.22"
       , "winston": "0.6.2"
-      , "posix": "*"
-      , "broadway": "*"
+      , "posix": "0.0.x"
+      , "broadway": "0.2.x"
+      , "temp": "0.4.x"
     }
   , "devDependencies": {
         "cli-easy": "0.1.0"
       , "mocha": "1.5.0"
       , "should": "1.1.x"
-      , "temp": "0.4.x"
     }
   , "main": "./lib/sftpd.js"
   , "bin": {
